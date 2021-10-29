@@ -1,0 +1,20 @@
+::-webkit-scrollbar{
+  /* background: var(--primary); */
+  inline-size: .4rem;
+  block-size: .4rem;
+}
+::-webkit-scrollbar-button{
+  background: rgba(255, 255, 255, 0.2);
+
+}
+::-webkit-scrollbar-track{
+  background: rgba(255, 255, 255, 0.2);
+}
+/* ::-webkit-scrollbar-thumb:horizontal{
+  background: darkblue;
+  border-radius: 8rem;
+} */
+::-webkit-scrollbar-thumb:vertical{
+  background: var(--primary);
+  border-radius: 8rem;
+}
