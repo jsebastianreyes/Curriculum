@@ -1,0 +1,52 @@
+@import "./button.css";
+@import "./header.css";
+@import "./icons.css";
+@import "./button-icon.css";
+@import "./hero.css";
+@import "./social.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./message.css";
+@import "./testimonial.css";
+@import "./projects.css";
+@import "./button-projects.css";
+@import "./footer.css";
+@import "./social.css";
+@import "./form.css";
+@import "./contact.css";
+
+:root{
+
+ --baseFontFamily:'Poppins', sans-serif;
+ --headline1: bold 5.93rem/9.62rem var(--baseFontFamily);
+ --headline2: bold 3.68rem/6rem var(--baseFontFamily);
+ --headline3: bold 3rem/4.87rem var(--baseFontFamily);
+ --headline4: bold 2.12rem/3.43rem var(--baseFontFamily);
+ --headline5: bold 1.5rem/2.43rem var(--baseFontFamily);
+ --FontBody1: normal 1rem/1.62rem var(--baseFontFamily);
+ --FontBody2: normal .875rem/1.43rem var(--baseFontFamily);
+ --fontButton: bold .875rem/1.43rem var(--baseFontFamily);
+ --fontcaption: normal .75rem/1.18rem var(--baseFontFamily);
+ --primary: #310A90;
+ --white: #ffffff;
+ --secundary: #42E2B8;
+ --gradientB: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+ --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%),linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+body{
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--FontBody1);
+  color: var(--primary);
+  margin: 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-block-end: 5rem;
+  margin-block-start: 5rem;
+
+}

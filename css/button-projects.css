@@ -1,0 +1,13 @@
+.button-projects{
+  font: var(--headline5);
+  color: var(--white);
+  background: var(--primary);
+  inline-size: fit-content;
+  padding-inline-start: .5rem;
+  padding-inline-end: .5rem;
+  padding-block-start: .25rem;
+  padding-block-end: .25rem;
+  box-shadow: -4px 4px  white;
+}
+
+

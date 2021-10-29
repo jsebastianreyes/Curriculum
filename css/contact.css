@@ -1,0 +1,32 @@
+.contact{
+  max-inline-size: 34rem;
+  margin: auto;
+   /* padding-block-start: 2.5rem; */
+  /* margin-block-end: 2.5rem; */
+}
+
+.contact-message{
+  color: var(--white);
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+
+
+
+.contact p{
+  margin: 0;
+}
+
+@media screen and (min-width:768px){
+  .contact .button-projects{
+    inline-size: 100%;
+    text-align: center;
+  }
+  .contact-message{
+    text-align: center;
+  }
+
+  .contact{
+    /* margin-block-end: 2.5rem; */
+  }
+}

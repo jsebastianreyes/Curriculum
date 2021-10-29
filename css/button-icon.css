@@ -1,0 +1,20 @@
+.button-icon{
+  background: var(--white);
+  border: 2px solid var(--primary);
+  border-radius: .25rem;
+  padding: .625rem;
+  color:var(--primary);
+  font-size: 1.5rem;
+  block-size: 2.75rem;
+  inline-size: 2.75rem;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button-icon i{
+  position: relative;
+  left: -2px;
+  bottom: 2px;
+}
+

@@ -1,0 +1,15 @@
+.social{
+  display: flex;
+  gap: 1rem;
+  padding-block-end: 1.5rem;
+}
+
+.social .button-icon{
+  transition: 1s transform;
+  will-change: transform;
+}
+
+.social .button-icon:hover{
+  transform: translateY(-10px);
+
+}
